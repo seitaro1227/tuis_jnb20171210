@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 必要なpackageをinstall
-yum -y update 
-yum -y install gcc gcc-c++ make git openssl-devel bzip2-devel zlib-devel readline-devel sqlite-devel
+sudo yum -y update 
+sudo yum -y install gcc gcc-c++ make git openssl-devel bzip2-devel zlib-devel readline-devel sqlite-devel
 
 # pyenvをinstall
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv

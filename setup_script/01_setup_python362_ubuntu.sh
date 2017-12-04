@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 必要なpackageをinstall
-apt-get update
-DEBIAN_FRONTEND=noninteractive apt-get -y install git make build-essential python-dev python-pip libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl
+sudo apt-get update
+DEBIAN_FRONTEND=noninteractive sudo apt-get -y install git make build-essential python-dev python-pip libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl
 
 # pyenvをinstall
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv

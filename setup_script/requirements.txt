@@ -1,0 +1,6 @@
+jupyter
+pandas
+xlrd
+geocoder
+folium
+geopandas
